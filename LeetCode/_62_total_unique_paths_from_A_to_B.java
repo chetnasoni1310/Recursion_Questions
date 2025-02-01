@@ -49,6 +49,7 @@ public class _62_total_unique_paths_from_A_to_B {
           if (row >= m || col >= n) {
           return 0;
       }
+      
       if(dp[row][col]!=0)
       {
           return dp[row][col];
